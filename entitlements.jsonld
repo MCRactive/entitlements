@@ -2,7 +2,7 @@
   "@context": "https://openactive.io/",
   "@id": "https://mcractive.github.io/entitlements/entitlements.jsonld",
   "@type": "ConceptScheme",
-  "title": "Entitlements for MCRActive",
+  "title": "Entitlement Types for MCRActive",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "concept": [
       {
