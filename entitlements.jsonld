@@ -2,58 +2,72 @@
   "@context": "https://openactive.io/",
   "@id": "https://mcractive.github.io/entitlements/entitlements.jsonld",
   "@type": "ConceptScheme",
-  "title": "Entitlement Types for MCRActive",
+  "title": "Entitlement Types for MCRactive",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "concept": [
-      {
+    {
+      "@type": "Concept",
+      "@id": "https://mcractive.github.io/entitlements#7baf9a0a-02a5-4c3c-93a7-4bb3fff9efc5",
+      "prefLabel": "Adult Pay & Play",
+      "narrower": [
+        {
           "@type": "Concept",
           "@id": "https://mcractive.github.io/entitlements#41730e9d-e07b-4737-a0b8-5bd12fe6be79",
           "prefLabel": "Adult Pay & Play MCR Non-Resident"
-      },
-      {
+        },
+        {
           "@type": "Concept",
           "@id": "https://mcractive.github.io/entitlements#db7b1d0e-effd-4083-9469-701a683ef434",
           "prefLabel": "Adult Concession Pay & Play MCR Non-Resident"
-      },
-      {
+        },
+        {
           "@type": "Concept",
           "@id": "https://mcractive.github.io/entitlements#a7d5bd07-45b2-4402-9bc3-3fda9b16c6de",
           "prefLabel": "Adult Concession Pay & Play MCR Non-Resident (Age 60+)"
-      },
-      {
-          "@type": "Concept",
-          "@id": "https://mcractive.github.io/entitlements#3f772b2e-6fd1-48fd-b0dc-a13d373f10b7",
-          "prefLabel": "Junior Pay & Play MCR Non-Resident"
-      },
-      {
-          "@type": "Concept",
-          "@id": "https://mcractive.github.io/entitlements#71cccadd-ff7a-46dd-a714-bd3a10723845",
-          "prefLabel": "Junior Concession Pay & Play MCR Non-Resident"
-      },
-      {
-          "@type": "Concept",
-          "@id": "https://mcractive.github.io/entitlements#63a196d0-90a3-4bf8-b561-e99fdd258e27",
-          "prefLabel": "Junior Pay & Play MCR Resident (Age 16-17)"
-      },
-      {
+        },
+        {
           "@type": "Concept",
           "@id": "https://mcractive.github.io/entitlements#4212b6cf-4b1e-45b6-ace9-b037d628c955",
           "prefLabel": "Adult Concession Pay & Play MCR Resident (Age 60+)"
-      },
-      {
-          "@type": "Concept",
-          "@id": "https://mcractive.github.io/entitlements#106c6991-9c7a-4864-b81b-86148c758bd0",
-          "prefLabel": "Junior Pay & Play MCR Resident"
-      },
-      {
-          "@type": "Concept",
-          "@id": "https://mcractive.github.io/entitlements#fec2f1d2-47eb-4d30-8a59-c3a6da4d357e",
-          "prefLabel": "Junior Concession Pay & Play MCR Resident"
-      },
-      {
+        },
+        {
           "@type": "Concept",
           "@id": "https://mcractive.github.io/entitlements#041c56ff-a897-4ae3-a870-35324ffc8a65",
           "prefLabel": "Adult Pay & Play MCR Resident"
-      }
+        }
+      ]
+    },
+    {
+      "@type": "Concept",
+      "@id": "https://mcractive.github.io/entitlements#cfe4d7c6-8528-4731-a854-6c1b9127ae1d",
+      "prefLabel": "Junior Pay & Play",
+      "narrower": [
+        {
+          "@type": "Concept",
+          "@id": "https://mcractive.github.io/entitlements#3f772b2e-6fd1-48fd-b0dc-a13d373f10b7",
+          "prefLabel": "Junior Pay & Play MCR Non-Resident"
+        },
+        {
+          "@type": "Concept",
+          "@id": "https://mcractive.github.io/entitlements#71cccadd-ff7a-46dd-a714-bd3a10723845",
+          "prefLabel": "Junior Concession Pay & Play MCR Non-Resident"
+        },
+        {
+          "@type": "Concept",
+          "@id": "https://mcractive.github.io/entitlements#63a196d0-90a3-4bf8-b561-e99fdd258e27",
+          "prefLabel": "Junior Pay & Play MCR Resident (Age 16-17)"
+        },
+        {
+          "@type": "Concept",
+          "@id": "https://mcractive.github.io/entitlements#106c6991-9c7a-4864-b81b-86148c758bd0",
+          "prefLabel": "Junior Pay & Play MCR Resident"
+        },
+        {
+          "@type": "Concept",
+          "@id": "https://mcractive.github.io/entitlements#fec2f1d2-47eb-4d30-8a59-c3a6da4d357e",
+          "prefLabel": "Junior Concession Pay & Play MCR Resident"
+        }
+      ]
+    }
   ]
 }
